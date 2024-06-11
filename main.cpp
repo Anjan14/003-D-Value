@@ -3,7 +3,7 @@
 
 /*
     Space Complexity:
-    O(n) --> Storage of mapping
+    1. O(n) --> Storage of mapping
 */
 /*
     Time Complexity:
