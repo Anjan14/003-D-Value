@@ -1,6 +1,17 @@
 #include <iostream>
 #include <unordered_map>
 
+/*
+    Space Complexity:
+    O(n) --> Storage of mapping
+*/
+/*
+    Time Complexity:
+    1. For initialization: O(n)
+    2. For lookup: O(1)
+     --> Worst case: O(n) due to hash collision
+*/
+
 int main() {
     // Map to store d_spacing values and their corresponding outputs
     std::unordered_map<double, std::string> d_spacing_map = {
